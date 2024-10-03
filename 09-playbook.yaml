@@ -1,4 +1,4 @@
-- name: variabless at task level
+- name: variables at task level
   host: localhost
   vars: 
   - money: "100000rs"
