@@ -2,7 +2,7 @@
   hosts: mongodb
   become: yes
   tasks:
-  - name: Install nginx
+  - name: Install NGINX 
     ansible.builtin.yum:
      name: nginx
     state: installed
@@ -10,4 +10,3 @@
     ansible.builtin.service:
      name: nginx
      state: started
-      
