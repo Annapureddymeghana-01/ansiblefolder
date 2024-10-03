@@ -1,2 +1,7 @@
 [mongodb]
 172.31.44.202
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+
