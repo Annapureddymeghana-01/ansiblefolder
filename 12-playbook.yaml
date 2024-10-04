@@ -3,12 +3,12 @@
   become: yes
   tasks: 
   - name: install packages
-    ansible.builtin.debug: 
+    ansible.builtin.yum: 
       name: "{{item}}" 
       state: installed 
     loop: 
     - nginx
     - postfix
     - maven
-    
+
 
