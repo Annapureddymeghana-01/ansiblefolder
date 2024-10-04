@@ -6,7 +6,9 @@
     ansible.builtin.debug: 
       name: "{{item}}" 
       state: installed 
-  loop:  
-  - nginx
-  - postfix 
-  - maven
+    loop: 
+    - nginx
+    - postfix
+    - maven
+    
+
